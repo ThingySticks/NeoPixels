@@ -8,7 +8,7 @@
 </settings>
 <grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.0125" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -163,7 +163,6 @@
 <wire x1="68.58" y1="69.215" x2="65.405" y2="66.675" width="0.254" layer="20" curve="-90"/>
 <wire x1="65.405" y1="66.675" x2="3.175" y2="66.675" width="0.254" layer="20"/>
 <wire x1="3.175" y1="66.675" x2="0.635" y2="69.215" width="0.254" layer="20" curve="-90"/>
-<text x="1.27" y="112.395" size="1.778" layer="48">All Through Hole Parts mounted on PCB Bottom layer.</text>
 <text x="2.2225" y="67.6275" size="0.8128" layer="25" font="vector">NeoPixel Stick On A Stick</text>
 <text x="7.62" y="99.06" size="0.8128" layer="25" font="fixed" rot="R90">3v3</text>
 <dimension x1="3.175" y1="66.675" x2="5.715" y2="104.775" x3="-31.75" y3="85.725" textsize="0.8128" layer="47" dtype="vertical"/>
